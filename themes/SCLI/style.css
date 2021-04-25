@@ -1,0 +1,99 @@
+/*
+Theme Name: SCLI Theme
+Theme URI: https://nthw.xyz
+Author: Nathaniel Wallace
+Author URI: https://nthw.xyz
+Description: Theme developed for Somerset & Cornwall Light Infantry
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: 
+Text Domain: scli theme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body {
+  font-family: 'PT Serif', serif;
+  color: #000;
+}
+
+/* header styles */
+#nav-links li {
+  display: inline;
+  padding-left: 1%;
+  padding-right: 1%;
+  list-style: none;
+}
+#scli-badge-main {
+  display: inline-block;
+  margin-left: 15%;
+  margin-top: 15%;
+}
+#main-title,
+#main-subtitle {
+  display: inline-block;
+}
+#scli-header {
+  text-align: center;
+  margin-top: 2%;
+}
+#scli-header h1 {
+  font-size: 3.25rem;
+}
+#scli-header h3 {
+  font-size: 1.75rem;
+  font-style: italic;
+}
+.badge h4 {
+  color: #000;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* header media queries */
+@media (max-width: 992px) {
+  .badge h4 {
+    color: #000;
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+}
+@media (max-width: 776px) {
+  #nav-links li {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 776px) {
+  .badge h4 {
+    font-size: 0.6rem;
+  }
+}
+.badge img {
+  padding-bottom: 70px;
+}
+@media (max-width: 576px) {
+  .badge img {
+    padding-bottom: 20px;
+  }
+}
+
+/* footer styles*/
+.footer-text {
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+#footer-badge {
+  text-align: center;
+  /* bottom: 15px; */
+}
+#footer-copy {
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+/* front page styles */
+#main-page-content {
+  margin-top: 5%;
+}
