@@ -2,6 +2,8 @@
 
 function obit_post_types(){
   register_post_type('obituary', array(
+    // 'rewrite'=> array('slug'=> 'obituaries'),
+    'has_archive' => true,
     'public' => true,
     'labels' => array(
       'name'=> 'Obituaries',
