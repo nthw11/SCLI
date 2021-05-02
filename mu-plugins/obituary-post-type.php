@@ -2,7 +2,8 @@
 
 function obit_post_types(){
   register_post_type('obituary', array(
-    // 'rewrite'=> array('slug'=> 'obituaries'),
+    'show_in_rest' => true,
+    'supports' => array('title', 'editor', 'excerpt'),
     'has_archive' => true,
     'public' => true,
     'labels' => array(

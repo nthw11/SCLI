@@ -18,9 +18,9 @@
     <nav>
       <ul id="nav-links">
       <li><a href="<?php echo site_url('/') ?>">Home</a></li>
-      <li><a href="<?php echo site_url('/civic-honors') ?>">Civic Honors</a></li>
+      <li><a href="<?php echo site_url('/civic-honours') ?>">Civic Honours</a></li>
       <li><a href="<?php echo site_url('/colonels') ?>">Principal Appointments</a></li>
-      <li><a href="<?php echo site_url('/ranks-index') ?>">Commissioned from the Ranks</a></li>
+      <li><a href="<?php echo site_url('/ranks') ?>">Commissioned from the Ranks</a></li>
       <li><a href="<?php echo site_url('/obituaries') ?>">Obituaries</a></li>
       <hr>
       

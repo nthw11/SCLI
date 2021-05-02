@@ -144,3 +144,12 @@ body {
 .obit-headline :any-link {
   color: #f00;
 }
+
+/* rank page styles */
+.rank-box {
+  width: 25%;
+  background-color: darkgreen;
+  color: #fff;
+  border: solid #000 1px;
+  padding: 15px;
+}
