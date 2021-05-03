@@ -17,6 +17,8 @@ Use it to make something cool, have fun, and share what you've learned with othe
 body {
   font-family: 'PT Serif', serif;
   color: #000;
+  margin: 0;
+  padding: 0;
 }
 
 /* header styles */
@@ -94,10 +96,52 @@ body {
 }
 
 /* front page styles */
-#main-page-content {
-  margin-top: 5%;
+.front-page-head {
+  padding: 3%;
 }
-
+.front-page-head h4 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.front-page-head h2 {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.front-page-group {
+  border: solid #000 1px;
+  padding: 3%;
+}
+.front-page-group h4 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.front-page-group h2 {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.front-page-content h4 {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.front-page-left-column h4 {
+  font-size: 1rem;
+}
+.front-page-left-column p {
+  font-size: 0.8rem;
+}
+.front-page-right-column {
+}
+.front-page-bottom-row {
+  background-color: #336633;
+  border: solid #000 1px;
+}
+.front-page-bottom-row h6 {
+  font-size: 1rem;
+}
+.front-page-bottom-row img {
+  background-color: #336633;
+}
 /* obit page styles */
 .obit-header {
   background-color: #444;
@@ -146,10 +190,20 @@ body {
 }
 
 /* rank page styles */
+#rank-page {
+  margin-top: 5%;
+}
+#intro-div h2 {
+  font-size: 1rem;
+}
+
 .rank-box {
-  width: 25%;
-  background-color: darkgreen;
+  width: auto;
+}
+.rank-box h2 {
   color: #fff;
+  background-color: #336633;
+  padding: 25px 5px;
+  font-size: 1rem;
   border: solid #000 1px;
-  padding: 15px;
 }

@@ -5,7 +5,7 @@
 </head>
 <body>
 <a name="top"></a>
-  <div class="">
+  <div class="container-fluid">
   <div class="row">
   <div class="col-sm-12 col-md-2" id="scli-badge">
     <img id="scli-badge-main" src="<?php echo get_theme_file_uri('/img/scli_150.jpg')?>" alt="SCLI Badge">
@@ -21,7 +21,7 @@
       <li><a href="<?php echo site_url('/civic-honours') ?>">Civic Honours</a></li>
       <li><a href="<?php echo site_url('/colonels') ?>">Principal Appointments</a></li>
       <li><a href="<?php echo site_url('/ranks') ?>">Commissioned from the Ranks</a></li>
-      <li><a href="<?php echo site_url('/obituaries') ?>">Obituaries</a></li>
+      <li><a href="<?php echo site_url('/2020-2030') ?>">Obituaries</a></li>
       <hr>
       
       <li><a href="<?php echo site_url('/contact') ?>">Contact</a></li>
@@ -41,7 +41,7 @@
         </div><!-- osnabruck -->
         
         <div class="col-sm-2 col-xs-3 badge" id="gibraltar">
-          <img src="<?php echo get_theme_file_uri('/img/SCLI_Gibraltar_Formation_patch.jpg') ?>" alt="Gibraltar" class="mx-auto">
+          <img src="<?php echo get_theme_file_uri('/img/SCLI_Gibraltar_Formation_Patch.jpg') ?>" alt="Gibraltar" class="mx-auto">
           <h4>Gibraltar 1961/63</h4>
         
         </div><!-- gibraltar -->
